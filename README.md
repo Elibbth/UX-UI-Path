@@ -1,7 +1,7 @@
 # UX/UI-Path
 
 #### Work in Progress
-  1. Article preview component
+  1. [Article preview component](https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT) 
   2. 
 
 ## Principle
