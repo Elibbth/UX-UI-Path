@@ -21,5 +21,5 @@
 
 ### Language
 
-  -SCSS
+  - SCSS
   
