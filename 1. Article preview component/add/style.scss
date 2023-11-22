@@ -1,110 +1,66 @@
-// body {
-//     font-family: "Hanken Grotesk", sans-serif;
-//     background-color: #dfdfdf;
-//     color: #313131;
-//     display: flex;
-//     align-items: center;
-//     justify-content: center;
-//     min-height: 100vh;
-//     margin: 0;
-// }
-
-// .deco-furniture {
-//     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-//     background-color: #fff;
-//     border-radius: 5px;
-//     width: 70%;
-//     max-width: 700px;
-//     display: flex;
-//     flex-direction: column;
-
-//     .image-container {
-//         width: 30%; /* 1/3 de la largeur pour l'image */
-//         overflow: hidden; /* Pour s'assurer que l'image ne dépasse pas le conteneur */
-        
-//         img {
-//           width: 100%; /* L'image occupe toute la largeur de son conteneur */
-//           object-fit: cover; /* Pour maintenir les proportions de l'image */
-//         }
-//     }
-
-//     .content-container {
-//         width: 66.66%; /* 2/3 de la largeur pour le contenu */
-//         display: flex;
-//         flex-direction: column;
-//         padding: 20px;
-//         box-sizing: border-box; /* Pour inclure le padding dans la largeur */
-
-//         .user_reviews {
-//             display: flex;
-//             flex-direction: column; /* Afficher les éléments en une seule colonne */
-//             align-items: center;
-//             padding-top: 10px;
-//         }
-//     }
-
-//     .attribution {
-//         font-size: 11px;
-//         text-align: center;
-//         margin-top: 20px;
-//     }
-// }
 body {
     font-family: "Hanken Grotesk", sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-color: #dfdfdf;
+    color: #313131;
+    display: flex; /*agencement flexible des éléms dans un container*/
+    align-items: center; /*sont centrés verticalement avec :center; */
+    justify-content: center;/*centrés horizontalement avec :center; */
     min-height: 100vh;
     margin: 0;
 }
-  
+
 .deco-furniture {
-    position: relative;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     background-color: #fff;
+    border-radius: 5px;
     width: 70%;
-    max-width: 600px;
+    max-width: 700px;
     display: flex;
-
     .image-container {
-        width: 25%;
+        width: 40%;
         overflow: hidden;
-
         img {
-        width: 100%;
-        object-fit: cover;
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /*conserve les proportions*/
         }
     }
 
     .content-container {
-        width: 75%;
+        width: 60%;
         display: flex;
         flex-direction: column;
+        column-count: 3;
         padding: 20px;
         box-sizing: border-box;
-
-        h2 {
+        h3 {
             margin-bottom: 10px;
         }
-
         .main_review {
             margin-bottom: 15px;
         }
-
-        .user_review {
+        .user_reviews {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            a {
-                color: hsl(228, 45%, 44%);
+            .share-link {
+                color: #313131;
                 text-decoration: none;
+                display: flex;
+                align-items: center;
+                svg {
+                margin-right: 5px; /* marge à droite pour espacer */
+
+                }        
             }
         }
     }
 }
-
 .attribution {
     font-size: 11px;
     text-align: center;
     margin-top: 20px;
+    width: 100%; /* .attribution est toute la largeur */
+    position: absolute; /* se situe tjrs là */
+    bottom: 0; /* .attribution en bas  */
 }
