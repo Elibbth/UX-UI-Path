@@ -1,0 +1,54 @@
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.deco-furniture {
+  position: relative;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  width: 70%;
+  max-width: 600px;
+  display: flex;
+}
+.deco-furniture .image-container {
+  width: 25%;
+  overflow: hidden;
+}
+.deco-furniture .image-container img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.deco-furniture .content-container {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.deco-furniture .content-container h2 {
+  margin-bottom: 10px;
+}
+.deco-furniture .content-container .main_review {
+  margin-bottom: 15px;
+}
+.deco-furniture .content-container .user_review {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.deco-furniture .content-container .user_review a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 20px;
+}/*# sourceMappingURL=style.css.map */
