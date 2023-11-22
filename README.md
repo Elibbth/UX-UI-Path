@@ -1,4 +1,4 @@
-# UX-UI-Path
+# UX/UI-Path
 
 #### Work in Progress
   1. Article preview component
