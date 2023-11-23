@@ -1,7 +1,8 @@
 @charset "UTF-8";
 body {
-  background-color: #cccccc;
+  background-color: hsl(210, 46%, 95%);
   color: hsl(217, 19%, 35%);
+  height: 100vh;
 }
 
 * {
@@ -9,8 +10,10 @@ body {
 }
 
 .card {
+  height: 100vh;
   display: flex;
   justify-content: center;
+  align-items: center; /*?????*/
 }
 .card .deco-furniture {
   display: flex; /*agencement flexible des éléms dans un container*/
