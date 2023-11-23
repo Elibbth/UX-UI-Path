@@ -6,7 +6,7 @@
   <link href="add/style.css" rel="stylesheet" type="text/css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100;0,300;0,600;0,900;1,100;1,300;1,600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;600;800&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | Article preview component</title>
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -15,60 +15,62 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
   <script src="add/effect.js" defer></script>
+  <script src="https://kit.fontawesome.com/ceda9163bb.js" crossorigin="anonymous"></script>
 </head>
 <!-- HEAD END -->
 
 <!-- BODY -->
 <body>
-  <article class="deco-furniture">
-<!-- IMG -->
-    <div class="image-container">
-      <img src="images/drawers.jpg" alt="furniture">
-    </div>
-<!-- CONTENT -->
-    <div class="content-container">
-      <!-- HEADER-TITLE -->
-      <h3>Shift the overall look and feel by adding these wonderful 
-        touches to furniture in your home
-      </h3>
-      <!-- CONTENT-ARTICLE -->
-      <section class="main_review">
-        <p>Ever been in a room and felt like something was missing? Perhaps 
-          it felt slightly bare and uninviting. I’ve got some simple tips 
-          to help you make any room feel complete.
-        </p>
-      </section>
-      <!-- SECTION USER -->
-      <section class="user_reviews">
-        <!-- img user -->
-        <div class="avatar-user">
-          <img src="images/avatar-michelle.jpg" alt="avatar-user">
-        </div>
-        <!-- posted by -->
-        <article class="posted_by">
-            <p>
-              Posted
-              <time datetime="2020-06-28 19:00">28 Jun 2020</time>
-              by Michelle Appleton.
-            </p>
-        </article>
-        <!-- link share -->
-        <div class="share-container">
-          <a href="#" class="share-link">
-            <svg src="images/icon-share.svg" alt="Share Icon"></svg>
-          </a>
-          <div class="social-links">
-            <a href="#" class="social-link">Facebook</a>
-            <a href="#" class="social-link">Twitter</a>
-            <a href="#" class="social-link">Instagram</a>
+  <div class="card">
+    <article class="deco-furniture">
+  <!-- LEFT -->
+      <div class="image-container">
+      </div>
+  <!-- RIGHT -->
+      <div class="content-container">
+        <!-- HEADER-TITLE -->
+        <h3>Shift the overall look and feel by adding these wonderful 
+          touches to furniture in your home
+        </h3>
+        <!-- MAIN REVIEW -->
+        <section class="main_review">
+          <p>Ever been in a room and felt like something was missing? Perhaps 
+            it felt slightly bare and uninviting. I’ve got some simple tips 
+            to help you make any room feel complete.
+          </p>
+        </section>
+        <!-- SECTION USER -->
+        <section class="avatar">
+          <!-- img user -->
+            <img src="images/avatar-michelle.jpg" class="avatar-user" alt="avatar-user">
+          <!-- posted by -->
+          <article class="posted_by">
+              <h4> Michelle Appleton</h4>
+              <p>
+                <time datetime="2020-06-28 19:00">28 Jun 2020 </time>  
+              </p>
+              
+          </article>
+
+          <!-- link share -->
+          <div class="share-container">
+            <a href="#" id="share" class="share-link">
+              <i class="fa-solid fa-share"></i>
+            </a>
+            <div class="social-links">Share
+              <ul>
+                <li><a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a></li>
+                <li><a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a></li>
+              </ul>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-    </div>
+      </div>
 
-  </article>
-    
+    </article>
+  </div>  
 
   
   <div class="attribution">

@@ -1,8 +1,6 @@
-document.addEventListener('DOMContentLoaded', function () {
-    const shareLink = document.querySelector('.share-link');
-    const socialLinks = document.querySelector('.social-links');
+const socials = document.querySelector(".social-links")
+const shareBtn = document.getElementById("#share")
 
-    shareLink.addEventListener('click', function () {
-        socialLinks.classList.toggle('show');
-    });
-});
+shareBtn.addEventListener("click", () => {
+    socials.classList.add("clicked")
+})

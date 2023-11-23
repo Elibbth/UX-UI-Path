@@ -1,61 +1,96 @@
 @charset "UTF-8";
 body {
-  font-family: "Hanken Grotesk", sans-serif;
-  background-color: #dfdfdf;
-  color: #313131;
+  background-color: #cccccc;
+  color: hsl(217, 19%, 35%);
+}
+
+* {
+  font-family: "Manrope", sans-serif;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+}
+.card .deco-furniture {
   display: flex; /*agencement flexible des éléms dans un container*/
   align-items: center; /*sont centrés verticalement avec :center; */
   justify-content: center; /*centrés horizontalement avec :center; */
-  min-height: 100vh;
-  margin: 0;
-}
-
-.deco-furniture {
+  min-height: 50vh;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   background-color: #fff;
   border-radius: 5px;
-  width: 70%;
-  max-width: 700px;
-  display: flex;
+  width: 700px;
 }
-.deco-furniture .image-container {
-  width: 40%;
-  overflow: hidden;
+.card .deco-furniture .image-container {
+  width: 45%;
+  height: 358px;
+  background: url(/images/drawers.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
-.deco-furniture .image-container img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover; /*conserve les proportions*/
+.card .deco-furniture .content-container {
+  width: 55%;
+  padding-left: 20px;
+  padding-right: 20px;
 }
-.deco-furniture .content-container {
-  width: 60%;
-  display: flex;
-  flex-direction: column;
-  -moz-column-count: 3;
-       column-count: 3;
-  padding: 20px;
-  box-sizing: border-box;
-}
-.deco-furniture .content-container h3 {
+.card .deco-furniture .content-container h3 {
+  margin-top: 10px;
   margin-bottom: 10px;
+  font-weight: 700;
 }
-.deco-furniture .content-container .main_review {
-  margin-bottom: 15px;
+.card .deco-furniture .content-container .main_review {
+  margin-top: 15px;
 }
-.deco-furniture .content-container .user_reviews {
+.card .deco-furniture .content-container .posted_by {
+  margin-left: -90px;
+}
+.card .deco-furniture .content-container .posted_by h4 {
+  margin-bottom: 5px;
+}
+.card .deco-furniture .content-container .posted_by p {
+  margin-top: 5px;
+}
+.card .deco-furniture .content-container .avatar {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+  margin-top: center;
+  position: relative;
 }
-.deco-furniture .content-container .user_reviews .share-link {
-  color: #313131;
+.card .deco-furniture .content-container .avatar .avatar-user {
+  width: 50px;
+  border-radius: 50%;
+}
+.card .deco-furniture .content-container .avatar .share-container .share-link {
+  color: hsl(217, 19%, 35%);
   text-decoration: none;
   display: flex;
   align-items: center;
-}
-.deco-furniture .content-container .user_reviews .share-link svg {
   margin-right: 5px; /* marge à droite pour espacer */
+}
+.card .deco-furniture .content-container .avatar .share-container .social-links {
+  background-color: hsl(217, 19%, 35%);
+  color: hsl(210, 46%, 95%);
+  text-transform: uppercase;
+  position: absolute;
+  width: 60%;
+  left: 150px;
+  bottom: 60px;
+  padding-left: 10px;
+  border-radius: 20px 20px 20px 20px;
+}
+.card .deco-furniture .content-container .avatar .share-container .social-links ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card .deco-furniture .content-container .avatar .share-container .social-links ul li {
+  margin: 0;
 }
 
 .attribution {

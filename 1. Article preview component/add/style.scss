@@ -1,61 +1,101 @@
 body {
-    font-family: "Hanken Grotesk", sans-serif;
-    background-color: #dfdfdf;
-    color: #313131;
-    display: flex; /*agencement flexible des éléms dans un container*/
-    align-items: center; /*sont centrés verticalement avec :center; */
-    justify-content: center;/*centrés horizontalement avec :center; */
-    min-height: 100vh;
-    margin: 0;
+    background-color: #cccccc;
+    color: hsl(217, 19%, 35%);
 }
-
-.deco-furniture {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    background-color: #fff;
-    border-radius: 5px;
-    width: 70%;
-    max-width: 700px;
-    display: flex;
-    .image-container {
-        width: 40%;
-        overflow: hidden;
-        img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover; /*conserve les proportions*/
+* {
+    font-family: 'Manrope', sans-serif;
+}
+.card {
+    display:flex;
+    justify-content: center;
+    
+    .deco-furniture {
+        display: flex; /*agencement flexible des éléms dans un container*/
+        align-items: center; /*sont centrés verticalement avec :center; */
+        justify-content: center;/*centrés horizontalement avec :center; */
+        min-height: 50vh;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        background-color: #fff;
+        border-radius: 5px;
+        width: 700px;
+        .image-container {
+            width: 45%;
+            height: 358px;
+            background: url(/images/drawers.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
         }
-    }
-
-    .content-container {
-        width: 60%;
-        display: flex;
-        flex-direction: column;
-        column-count: 3;
-        padding: 20px;
-        box-sizing: border-box;
-        h3 {
-            margin-bottom: 10px;
-        }
-        .main_review {
-            margin-bottom: 15px;
-        }
-        .user_reviews {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            .share-link {
-                color: #313131;
-                text-decoration: none;
+        .content-container {
+            width: 55%;
+            padding-left: 20px;
+            padding-right: 20px;
+            h3 {
+                margin-top: 10px;
+                margin-bottom: 10px;
+                font-weight: 700;
+            }
+            .main_review {
+                margin-top: 15px;
+            }
+            .posted_by {
+                margin-left: -90px;
+                h4 {
+                    margin-bottom: 5px;
+                }
+                p {
+                    margin-top: 5px;
+                } 
+            }
+            .avatar {
                 display: flex;
                 align-items: center;
-                svg {
-                margin-right: 5px; /* marge à droite pour espacer */
+                justify-content: space-between;
+                margin-top: center;
+                position:relative;
+                .avatar-user {
+                    width: 50px;
+                    border-radius: 50%;
+                }
+                .share-container {
+                    .share-link {
+                        color: hsl(217, 19%, 35%);
+                        text-decoration: none;
+                        display: flex;
+                        align-items: center;
+                        margin-right: 5px; /* marge à droite pour espacer */
+                    }   
+                    .social-links {
+                        // display: none;
+                        background-color: hsl(217, 19%, 35%);
+                        color: hsl(210, 46%, 95%);
+                        text-transform: uppercase;
+                        position: absolute;
+                        width: 60%;
+                        left: 150px;
+                        bottom: 60px;
+                        padding-left: 10px;
+                        border-radius: 20px 20px 20px 20px;
 
-                }        
+                        ul {
+                            list-style: none;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            li{
+                                margin: 0;
+                            }
+                        }
+                    }
+                }     
             }
         }
     }
+
 }
+
 .attribution {
     font-size: 11px;
     text-align: center;
@@ -64,3 +104,4 @@ body {
     position: absolute; /* se situe tjrs là */
     bottom: 0; /* .attribution en bas  */
 }
+
