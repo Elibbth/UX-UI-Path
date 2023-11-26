@@ -1,0 +1,33 @@
+
+.containerModal {
+    display: grid;
+    grid-template-columns: 1fr 1fr;  /* 2 columns, .containertext et .containerform */
+    gap: 20px;  /* Espace */
+    align-items: center;
+    width: 65%;  /* largeur du containerModal */
+    height: 100vh; /* .containerModal s'étend sur toute la H */
+    margin: auto;  /* Centre le container (sur x) */
+    color: white;
+
+    .containerText {
+        grid-area: 1 / 1 / 3 / 2;  /* Le texte occupe les lignes 1 à 2 et la colonne 1 voir ci-dessous */
+        h1 {
+            font-size:xx-large;
+            font-weight: 700;
+        }
+        p{
+            padding-top: 20px;
+            font-size: small;
+        }
+    }
+    .containerForm {
+        grid-area: 1 / 2 / 3 / 3;  /* Le formulaire occupe les lignes 1 à 2 et la colonne 2*/
+    }
+}
+
+/* 
+grid-row-start: L'élément commence à la ligne 1.
+grid-column-start: L'élément commence à la colonne 1.
+grid-row-end: L'élément se termine à la ligne 3.
+grid-column-end: L'élément se termine à la colonne 2.*/
+

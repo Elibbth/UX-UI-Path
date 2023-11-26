@@ -1,0 +1,46 @@
+.containerForm {
+    text-align: center;
+    
+    .form-free-trial{
+        height: 50vh;
+        font-family: $bodyFont;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 10px;
+        .data {   
+            padding: 20px;
+            input {
+                font-family: $bodyFont;
+                font-weight: 600;
+                border: solid $fadeYellow 1px;
+                border-radius: 5px;  
+                padding: 10px ; 
+                width: 80%;
+                margin: 5px;
+            }
+        }
+        .free-trial {
+            background-color: $green;
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border: none;
+            border-radius: 5px;  
+            padding: 10px ; 
+            width: 85%;
+            margin: 5px;
+            box-shadow: 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+            }
+        p {
+            text-align: center;
+            padding-top: 15px;
+            color: $fadeYellow;
+            font-size: 10px;
+            font-weight: 600;
+            .link-service {
+                color: $red;
+                text-decoration: none;
+            }
+        }
+    }
+}
