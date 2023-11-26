@@ -143,6 +143,7 @@ body {
   margin: 0;
   font-family: "Poppins";
   background-color: hsl(0, 100%, 74%);
+  background-image: url(../images/bg-intro-desktop.png);
 }
 
 .containerForm .try {
