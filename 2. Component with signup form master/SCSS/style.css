@@ -229,6 +229,18 @@ body {
 .containerModal .containerForm {
   grid-area: 1/2/3/3; /* Le formulaire occupe les lignes 1 à 2 et la colonne 2*/
 }
+@media (max-width: 375px) {
+  .containerModal { /* pour les écrans de 375px de l/ mobil */
+    grid-template-columns: 1fr; /* 1colonne  */
+    width: 90%; /* Ajuste la l selon pour les mobils */
+  }
+  .containerModal .containerText {
+    grid-area: auto; /* réinitialise la position du text pour mobile */
+  }
+  .containerModal .containerForm {
+    grid-area: auto; /* réinitialise la position du form pour les mobils */
+  }
+}
 
 /* 
 grid-row-start: L'élément commence à la ligne 1.
