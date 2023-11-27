@@ -3,7 +3,11 @@
 #### Work in Progress
   1. [Article preview component](https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT) 
   2. [Test Wireframe with Figma](https://www.figma.com/file/pSAnXOIULneuTG2sezAdlG/TestWireframe?type=design&node-id=0%3A1&mode=design&t=khtYaHOxUjfrpotn-1)
-  3. [Component with signup form master](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1)
+       - [A](https://www.figma.com/file/OwREQT1sob9OMAeln2krSB/Untitled?type=design&node-id=3%3A19&mode=design&t=5DHsVmtVKvak1oR5-1)
+       - [B]()
+       - [C]()
+       - 
+  4. [Component with signup form master](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1)
 
 ## Principle
 
