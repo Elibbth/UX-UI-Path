@@ -27,4 +27,15 @@
 ### Language
 
   - SCSS
-  
+
+### Tendances
+
+
+
+| Description                    |Références                      |
+| :--------                      | :----------------------------  |
+| Tendances Graphiques 2024      | [blogduwebdesign.com](https://www.blogduwebdesign.com/blog/graphisme/tendances-graphiques-2024.html) |
+| | [merehead.com](https://merehead.com/fr/blog/tendances-de-conception-graphique-2024/) |
+| Tendances Graphiques 2023      |  [graphiste.com](https://graphiste.com/blog/tendances-graphiques-2023/) |
+|                                |  [userguiding.com](https://userguiding.com/fr/blog/tendances-design-graphique/) |
+|   |   |
