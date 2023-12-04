@@ -6,7 +6,8 @@
        - [A](https://www.figma.com/file/VAkvr9aT5Eyx7rJzhXJkjF/Loading-animation?type=design&node-id=0%3A1&mode=design&t=xIyXKN75eMuCkjP6-1)
        - [C]()
        - 
-  4. [Component with signup form master](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1)
+  3. [Component with signup form master](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1)
+  4. [Bookmark landing page](https://www.frontendmentor.io/challenges/bookmark-landing-page-5d0b588a9edda32581d29158)
 
 ## Principle
 
