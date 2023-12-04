@@ -1,0 +1,183 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+    v2.0 | 20110126
+    License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: "Rubik", sans-serif;
+}
+
+.navigation {
+  padding: 2rem 7rem;
+  min-height: 100vh;
+}
+.navigation nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navigation nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 2rem;
+}
+.navigation nav ul li a {
+  text-decoration: none;
+  color: hsl(229, 31%, 21%);
+  font-size: 0.7rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+.navigation nav ul li a:hover, .navigation nav ul li a:focus {
+  color: hsl(0, 94%, 66%);
+}
+.navigation nav ul li .login {
+  padding: 0.55rem 1.5rem;
+  background: hsl(0, 94%, 66%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 0.3rem;
+  border: 2px solid hsl(0, 94%, 66%);
+  box-shadow: 0 4px 0.3rem 0 rgba(0, 0, 0, 0.247);
+}
+.navigation nav ul li .login:hover {
+  background: transparent;
+  color: hsl(0, 94%, 66%);
+}/*# sourceMappingURL=style.css.map */

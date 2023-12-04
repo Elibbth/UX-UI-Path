@@ -1,0 +1,37 @@
+.navigation{
+    padding: 2rem 7rem;
+    min-height: 100vh;
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        ul li{
+            list-style: none;
+            display: inline-block;
+            margin-left: 2rem;
+            a{
+                text-decoration: none;
+                color: hsl(229, 31%, 21%);
+                font-size: .7rem;
+                font-weight: 500;
+                text-transform: uppercase;
+                transition: .5s;
+                &:hover, &:focus{
+                    color: hsl(0, 94%, 66%);
+                }  
+            }
+            .login{
+                padding: .55rem 1.5rem;
+                background: hsl(0, 94%, 66%);
+                color: hsl(0, 0%, 100%);
+                border-radius: .3rem;
+                border: 2px solid hsl(0, 94%, 66%);
+                box-shadow: 0 4px .3rem 0 rgba(0, 0, 0, 0.247);
+                &:hover{
+                    background: transparent;
+                    color: hsl(0, 94%, 66%);
+                }
+            } 
+        }
+    }
+}
