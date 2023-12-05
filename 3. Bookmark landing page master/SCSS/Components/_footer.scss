@@ -1,0 +1,75 @@
+footer{
+    padding: 1.5rem 7rem;
+    background: hsl(229, 31%, 21%);
+    nav{
+        display: flex;
+        align-items: center;
+
+        .footer-links{
+            flex: 1;
+            margin-left: 4rem;
+            li{
+                list-style: none;
+                display: inline-block;
+                margin-right: 1.5rem;
+                a{
+                    text-decoration: none;
+                    color: hsl(0, 0%, 100%);
+                    text-transform: uppercase;
+                    font-size: .7rem;
+                    transition: .5s;
+                    &:hover, &:focus{
+                        color: hsl(0, 94%, 66%);
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer nav .links li a:hover,
+footer nav .links li 
+
+footer nav .social-links{
+    display: flex;
+    align-items: center;
+}
+
+footer nav .social-links li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 2rem;
+}
+
+footer nav .social-links li a img{
+    filter: invert(0);
+}
+
+footer .attribution{
+    color: hsl(0, 0%, 100%);
+    font-size: 1rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+footer .attribution a{
+    text-decoration: none;
+    color: hsl(229, 8%, 60%);
+}
