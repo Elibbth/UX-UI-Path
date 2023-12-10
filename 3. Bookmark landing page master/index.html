@@ -7,6 +7,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./SCSS/style.css"/> <!--dossier css-->
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet"> <!--Fonts-->
+  <script src="./JS/script.js" defer></script>
 
   <title>Frontend Mentor | Bookmark landing page</title>
 
@@ -60,13 +61,13 @@
     </p>
 
     <div class="features-access">
-      <p class="control active">Simple Bookmarking</p>
-      <p class="control">Speedy Searching</p>
-      <p class="control">Easy Sharing</p>
+      <p class="control active" onclick="changerFeatures('item-1', this)">Simple Bookmarking</p>
+      <p class="control" onclick="changerFeatures('item-2', this)">Speedy Searching</p>
+      <p class="control" onclick="changerFeatures('item-3', this)">Easy Sharing</p>
     </div>
 
-    <div class="features-left">
-      <div class="left-col">
+    <div class="features-items" id="item-1">
+      <div class="features-img">
         <img src="images/illustration-features-tab-1.svg" alt="features wireframe" id="image">
       </div>
 
@@ -75,27 +76,37 @@
         <p id="paragraph">Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete
           control over how you manage your favourite sites.
         </p>
-        <a href="#">More Info</a>
+        <a class="btn-info" href="#">More Info</a>
       </div>
     </div>
 
+    <div class="features-items" id="item-2">
+      <div class="features-img">
+        <img src="images/illustration-features-tab-2.svg" alt="features wireframe" id="image">
+      </div>
+
+      <div class="features-text">
+        <h3 id="heading">Intelligent search</h3>
+        <p id="paragraph">Our powerful search feature will help you find saved sites in no time at all. 
+          No need to trawl through all of your bookmarks.
+        </p>
+        <a class="btn-info" href="#">More Info</a>
+      </div>
+    </div>
+    <div class="features-items" id="item-3">
+      <div class="features-img">
+        <img src="images/illustration-features-tab-3.svg" alt="features wireframe" id="image">
+      </div>
+
+      <div class="features-text">
+        <h3 id="heading">Share your bookmarks</h3>
+        <p id="paragraph">Easily share your bookmarks and collections with others. Create a shareable 
+          link that you can send at the click of a button.
+        </p>
+        <a class="btn-info" href="#">More Info</a>
+      </div>
+    </div>
   </section>
-<!-- FIN -->
-<!-- Slide-INFO -->
-
-  Intelligent search
-
-  Our powerful search feature will help you find saved sites in no time at all. 
-  No need to trawl through all of your bookmarks.
-
-  More Info
-
-  Share your bookmarks
-
-  Easily share your bookmarks and collections with others. Create a shareable 
-  link that you can send at the click of a button.
-
-  More Info
 <!-- FIN -->
 <!-- Slide-DOWNLOAD -->
   Download the extension
