@@ -1,0 +1,46 @@
+.download{
+    padding: 1rem 7rem 6rem;
+    min-height: 100vh;
+    position: relative;
+    h3{
+        text-align: center;
+        font-size: 1.8rem;
+        color: hsl(229, 31%, 21%);
+        margin-bottom: .7rem;
+    }
+    p{
+        text-align: center;
+        font-size: 1rem;
+        line-height: 1.3;
+        color: hsl(229, 8%, 60%);
+        margin-bottom: 1rem;
+    }
+    .download-cards{
+
+        .download-item{
+            h4{
+
+            }
+            p{
+
+            }
+            a{
+                margin-right: 1rem;
+                padding: .7rem 1rem;
+                color: hsl(0, 0%, 100%);
+                background: hsl(231, 69%, 60%);
+                text-decoration: none;
+                font-size: .9rem;
+                font-weight: 500;
+                border-radius: .3rem;
+                border: 2px solid hsl(231, 69%, 60%);
+                transition: .5s;
+                cursor: pointer;
+                &:hover, &:focus{
+                    background: transparent;
+                    color: hsl(231, 69%, 60%);
+                }
+            }
+        }
+    }
+}

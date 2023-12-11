@@ -318,6 +318,42 @@ html, body {
   color: hsl(231, 69%, 60%);
 }
 
+.download {
+  padding: 1rem 7rem 6rem;
+  min-height: 100vh;
+  position: relative;
+}
+.download h3 {
+  text-align: center;
+  font-size: 1.8rem;
+  color: hsl(229, 31%, 21%);
+  margin-bottom: 0.7rem;
+}
+.download p {
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.3;
+  color: hsl(229, 8%, 60%);
+  margin-bottom: 1rem;
+}
+.download .download-cards .download-item a {
+  margin-right: 1rem;
+  padding: 0.7rem 1rem;
+  color: hsl(0, 0%, 100%);
+  background: hsl(231, 69%, 60%);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border-radius: 0.3rem;
+  border: 2px solid hsl(231, 69%, 60%);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.download .download-cards .download-item a:hover, .download .download-cards .download-item a:focus {
+  background: transparent;
+  color: hsl(231, 69%, 60%);
+}
+
 footer {
   padding: 1.5rem 7rem;
   background: hsl(229, 31%, 21%);
