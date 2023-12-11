@@ -241,6 +241,7 @@ html, body {
 .features h2 {
   text-align: center;
   font-size: 1.8rem;
+  font-weight: 500;
   color: hsl(229, 31%, 21%);
   margin-bottom: 0.7rem;
 }
@@ -289,6 +290,7 @@ html, body {
 }
 .features .features-items .features-text h3 {
   font-size: 1.8rem;
+  font-weight: 500;
   color: hsl(229, 31%, 21%);
   margin-bottom: 0.7rem;
 }
@@ -326,10 +328,31 @@ html, body {
 .download h3 {
   text-align: center;
   font-size: 1.8rem;
+  font-weight: 500;
   color: hsl(229, 31%, 21%);
   margin-bottom: 0.7rem;
 }
 .download p {
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.3;
+  color: hsl(229, 8%, 60%);
+  margin-bottom: 1rem;
+}
+.download .download-cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0rem;
+}
+.download .download-cards .download-item h4 {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  color: hsl(229, 31%, 21%);
+  margin-bottom: 0.7rem;
+}
+.download .download-cards .download-item p {
   text-align: center;
   font-size: 1rem;
   line-height: 1.3;
