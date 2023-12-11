@@ -390,6 +390,10 @@ html, body {
   margin-top: 10rem;
 }
 
+.questions {
+  padding: 4rem 23rem;
+  text-align: center;
+}
 footer {
   padding: 1.5rem 7rem;
   background: hsl(229, 31%, 21%);

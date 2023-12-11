@@ -1,4 +1,4 @@
-
+// FEATURES -- JS
 function changerFeatures(targetItemId, control) {
     // Récupérer tous les items
     let allItems = document.querySelectorAll('.features-items');
@@ -23,3 +23,5 @@ function changerFeatures(targetItemId, control) {
 }
 // Afficher le premier élément au chargement de la page
 changerFeatures('item-1', document.querySelector('.control.active'));
+// FIN -- FEATURES
+
