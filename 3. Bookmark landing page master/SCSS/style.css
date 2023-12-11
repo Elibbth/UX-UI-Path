@@ -322,7 +322,6 @@ html, body {
 
 .download {
   padding: 1rem 7rem 6rem;
-  min-height: 100vh;
   position: relative;
 }
 .download h3 {
@@ -345,22 +344,30 @@ html, body {
   justify-content: space-between;
   margin-top: 0rem;
 }
+.download .download-cards .download-item {
+  text-align: center;
+  box-shadow: 0 0 0.5rem 0 hsla(225, 4%, 22%, 0.3);
+  padding: 2rem 1rem 2rem;
+  border-radius: 0.8rem;
+}
 .download .download-cards .download-item h4 {
   text-align: center;
   font-size: 1rem;
   font-weight: 500;
   color: hsl(229, 31%, 21%);
-  margin-bottom: 0.7rem;
+  margin: 1rem;
 }
 .download .download-cards .download-item p {
   text-align: center;
   font-size: 1rem;
   line-height: 1.3;
   color: hsl(229, 8%, 60%);
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px dotted hsla(229, 8%, 60%, 0.308);
+  border-width: 0.3em 0 5px;
 }
 .download .download-cards .download-item a {
-  margin-right: 1rem;
+  margin-top: 1.5rem;
   padding: 0.7rem 1rem;
   color: hsl(0, 0%, 100%);
   background: hsl(231, 69%, 60%);
@@ -375,6 +382,12 @@ html, body {
 .download .download-cards .download-item a:hover, .download .download-cards .download-item a:focus {
   background: transparent;
   color: hsl(231, 69%, 60%);
+}
+.download .download-cards .download-item:nth-child(2) {
+  margin-top: 5rem;
+}
+.download .download-cards .download-item:nth-child(3) {
+  margin-top: 10rem;
 }
 
 footer {
