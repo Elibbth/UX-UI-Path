@@ -7,7 +7,7 @@
   4. __Figma__
       * [Test Wireframe with Figma](https://www.figma.com/file/pSAnXOIULneuTG2sezAdlG/TestWireframe?type=design&node-id=0%3A1&mode=design&t=khtYaHOxUjfrpotn-1)
          - [A](https://www.figma.com/file/VAkvr9aT5Eyx7rJzhXJkjF/Loading-animation?type=design&node-id=0%3A1&mode=design&t=xIyXKN75eMuCkjP6-1)
-         - [C]()
+         - [B]()
          - 
 
 ## Principle
