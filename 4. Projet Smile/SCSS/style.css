@@ -28,7 +28,6 @@ code,
 del,
 dfn,
 em,
-img,
 ins,
 kbd,
 q,
@@ -134,4 +133,41 @@ table {
 
 button {
   cursor: pointer;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .wireframe {
+  width: 70%;
+  position: relative;
+}
+
+.div-wrapper {
+  position: relative;
+}
+.div-wrapper .overlap {
+  position: relative;
+}
+.div-wrapper .overlap .banana-realistic {
+  height: 300px;
+}
+.div-wrapper .overlap .smile {
+  z-index: 2;
+}
+.div-wrapper .overlap .smile-stroke {
+  position: fixed;
+  width: 815px;
+  height: 310px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.div-wrapper .overlap .prise-de-courant {
+  width: 5vw;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
 }/*# sourceMappingURL=style.css.map */

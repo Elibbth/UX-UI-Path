@@ -1,0 +1,30 @@
+
+.div-wrapper {
+    position: relative;
+    .overlap {
+        position: relative;
+        .banana-realistic {
+            height: 300px;
+        }
+        .smile{
+            z-index: 2;
+        }
+        .smile-stroke{
+            position: fixed;
+            width: 815px;
+            height: 310px;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+        .prise-de-courant {
+            width: 5vw; // Taille responsive
+            left: 100%;
+            transform: translate(-50%, -50%);
+            z-index: 3;
+        }
+    }
+}
+
+
+
