@@ -1,0 +1,21 @@
+.banner-top{
+    background-color: $yellow;
+    padding: 10px;
+    text-align: center;
+    color: $black; 
+    font-size: 18px;
+
+    background-color: $yellow;
+    font-family: $font-basic;
+    font-weight: 600;
+    a{
+
+    }
+    button{
+        border-radius: 20px;
+        font-family: $font-basic;
+        font-weight: 600;
+        color: $blueElectrik;
+        padding: 10px;
+    }
+}

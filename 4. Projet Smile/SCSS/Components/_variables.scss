@@ -1,9 +1,16 @@
 // colors:
-$darkblue: #123451;
+$black: #090909;
 $blueElectrik: #000AFF;
-$bluelight: #5CE1E1;
-$yellow: #FFE072;
+$yellow: #FFC803;
 $white: #ffffff;
 
 // fonts:
-$h-title: 'KyivType Sans-Regular',sans-serif;
+
+$font-basic: 'Darker Grotesque', sans-serif;
+
+// @font-face {
+//     font-family: 'KyivType Sans-Regular';
+//     src: url('./assets/Fonts/Dmitry-Rastvortsev-KyivType/Dmitry/Rastvortsev/-/KyivType/ Sans/Thin.otf') format("opentype");
+// }
+// $h-title: 'KyivType Sans-Regular',sans-serif;
+

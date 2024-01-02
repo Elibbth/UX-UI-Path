@@ -1,0 +1,24 @@
+.nav_menu{
+    
+    ul{
+        display: flex;
+        justify-content: space-between;
+        .nav_link{
+            padding-left: 50px;
+            color: $white;
+            font-family: $font-basic;
+            text-decoration: none;
+            list-style: none;
+            cursor: pointer;
+        }
+        .nav_icon{
+            padding-left: 50px;
+            img{
+                padding: 5px;
+                border-radius: 50%;
+                background-color: $white;
+                
+            }
+        }
+    }
+}
