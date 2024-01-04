@@ -36,7 +36,7 @@
 
 | Description                    |Références                      |
 | :--------                      | :----------------------------  |
-| Globale                        | https://www.awwwards.com/inspiration_search/
+| Globale     (veille)           | https://www.awwwards.com/inspiration_search/
 |                                |  https://dribbble.com/          |
 |                                |   https://www.behance.net/      |
 |                                |  https://www.pinterest.fr/      |
