@@ -46,10 +46,11 @@
 
 ### Constructions
 
+| Description                    |Références                      |
 |  :------                       | :----------                                                         |
 | Stratégie                      | Quels sont les objectifs et quels sont les besoins des users ?      |
 | Cadre général                  | Quels sont les contenus à mettre en place et quelles sont les fonctionnalités à proposer ? |
-| Structure                      | Comment architecturer l’information et quelles seront les parties de l’information qui seront interactives (la mise en œuvre des informations) ?      |
+| Structure                      | Comment architecturer l’information et quelles seront les parties de l’information qui seront interactives (la mise en œuvre des informations) ? |
 | Charpente (wireframes)         | Quelle navigation mettre en place et comment la rendre lisible ?      |
 | Couche visuelle                | Comment jouer sur les émotions et les désirs ?                        |
 
