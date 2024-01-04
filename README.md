@@ -36,11 +36,11 @@
 
 | Description                    |Références                      |
 | :--------                      | :----------------------------  |
-| Globale                        | - https://www.awwwards.com/inspiration_search/
-- https://dribbble.com/
-- https://www.behance.net/
-- https://www.pinterest.fr/
-- https://www.designspiration.com/ |
+| Globale                        | https://www.awwwards.com/inspiration_search/
+|                                |  https://dribbble.com/          |
+|                                |   https://www.behance.net/      |
+|                                |  https://www.pinterest.fr/      |
+|                                |  https://www.designspiration.com/ |
 | Tendances Graphiques 2024      | [blogduwebdesign.com](https://www.blogduwebdesign.com/blog/graphisme/tendances-graphiques-2024.html) |
 |  | [inumage.fr](https://unimage.fr/5-grandes-tendances-du-design-web-en-2024/)  |
 |   | [vatilab.com](https://www.vatilab.com/7-tendances-2024-design-web) |
