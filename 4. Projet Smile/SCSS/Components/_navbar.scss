@@ -2,13 +2,12 @@
     
     ul{
         display: flex;
-        justify-content: space-between;
+        list-style: none;
         .nav_link{
             padding-left: 50px;
             color: $white;
             font-family: $font-basic;
             text-decoration: none;
-            list-style: none;
             cursor: pointer;
         }
         .nav_icon{

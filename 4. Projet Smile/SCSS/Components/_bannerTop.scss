@@ -1,7 +1,6 @@
 .banner-top{
     background-color: $yellow;
     padding: 10px;
-    text-align: center;
     color: $black; 
     font-size: 18px;
 
@@ -9,7 +8,9 @@
     font-family: $font-basic;
     font-weight: 600;
     a{
+        text-decoration: none;
 
+        color: $black;
     }
     button{
         border-radius: 20px;

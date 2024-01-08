@@ -1,12 +1,14 @@
 // colors:
-$black: #090909;
-$blueElectrik: #000AFF;
-$yellow: #FFC803;
+$black: #090909; // Txt, arrière-plan, icons, ...
+$blueElectrik: #000AFF; // button, tirets, mise en évidence, footer, répétitions,...
+$yellow: #FFC803; // bannière, ...
+$light:#FFF2C2; // effet 'drop shadow'
 $white: #ffffff;
 
 // fonts:
 
 $font-basic: 'Darker Grotesque', sans-serif;
+$font-title: '',sans-serif;
 
 // @font-face {
 //     font-family: 'KyivType Sans-Regular';

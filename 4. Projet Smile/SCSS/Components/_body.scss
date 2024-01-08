@@ -5,13 +5,12 @@ body{
     background-color: $black;
     width: 100%;
     position: relative;
-    // header {
-    //     display: flex;
-    //     position: absolute;
-    //     text-align: center;
 
-    //     .wireframe{
-    //     width: 100%;
-    //     }
-    // }
+    .slide{
+        min-height: 100vh;
+        background: rgb(255,242,194);
+        background: radial-gradient(circle, rgba(255,242,194,0.20220588235294112) 0%, rgba(249,251,251,0) 40%);
+
+    }
+
 }
