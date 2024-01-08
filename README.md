@@ -36,6 +36,11 @@
 
 | Description                    |Références                      |
 | :--------                      | :----------------------------  |
+| Globale     (veille)           | https://www.awwwards.com/inspiration_search/
+|                                |  https://dribbble.com/          |
+|                                |   https://www.behance.net/      |
+|                                |  https://www.pinterest.fr/      |
+|                                |  https://www.designspiration.com/ |
 | Tendances Graphiques 2024      | [blogduwebdesign.com](https://www.blogduwebdesign.com/blog/graphisme/tendances-graphiques-2024.html) |
 |  | [inumage.fr](https://unimage.fr/5-grandes-tendances-du-design-web-en-2024/)  |
 |   | [vatilab.com](https://www.vatilab.com/7-tendances-2024-design-web) |
@@ -43,6 +48,16 @@
 | Tendances Graphiques 2023      |  [graphiste.com](https://graphiste.com/blog/tendances-graphiques-2023/) |
 |                                |  [userguiding.com](https://userguiding.com/fr/blog/tendances-design-graphique/) |
 | Framework  | [merehead.com](https://merehead.com/blog/css-frameworks-2024/)  |
+
+### Constructions
+
+| Description                    |Références                      |
+|  :------                       | :----------                                                         |
+| Stratégie                      | Quels sont les objectifs et quels sont les besoins des users ?      |
+| Cadre général                  | Quels sont les contenus à mettre en place et quelles sont les fonctionnalités à proposer ? |
+| Structure                      | Comment architecturer l’information et quelles seront les parties de l’information qui seront interactives (la mise en œuvre des informations) ? |
+| Charpente (wireframes)         | Quelle navigation mettre en place et comment la rendre lisible ?      |
+| Couche visuelle                | Comment jouer sur les émotions et les désirs ?                        |
 
 ### Fonts
 
