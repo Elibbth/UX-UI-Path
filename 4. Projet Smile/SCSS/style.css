@@ -5,7 +5,7 @@
   font-size: 18px;
   background-color: #FFC803;
   font-family: "Darker Grotesque", sans-serif;
-  font-weight: 600;
+  font-weight: 800;
 }
 .banner-top a {
   text-decoration: none;
@@ -19,24 +19,46 @@
   padding: 10px;
 }
 
-.nav_menu ul {
-  display: flex;
-  list-style: none;
-}
-.nav_menu ul .nav_link {
-  padding-left: 50px;
-  color: #ffffff;
+.navbar-brand {
   font-family: "Darker Grotesque", sans-serif;
+}
+.navbar-brand img {
+  width: 80px;
+}
+
+.banane-branchee {
+  width: 100%;
+}
+
+.banane-branchee:hover {
+  box-shadow: 0px 0px 50px 0px rgba(255, 200, 3, 0.85);
+}
+
+.col-5 {
+  display: flex;
+  align-items: center;
+  font-family: "Darker Grotesque", sans-serif;
+}
+.col-5 .slogan {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.col-5 h1 {
+  font-weight: 900;
+  font-size: 56px;
+  color: #ffffff;
+  letter-spacing: 4px;
+  line-height: 4rem;
+}
+.col-5 h1 span {
+  color: #000AFF;
+}
+.col-5 a {
+  background-color: #1C1B1B;
+  border-radius: 5px;
+  padding: 5px 10px;
   text-decoration: none;
-  cursor: pointer;
-}
-.nav_menu ul .nav_icon {
-  padding-left: 50px;
-}
-.nav_menu ul .nav_icon img {
-  padding: 5px;
-  border-radius: 50%;
-  background-color: #ffffff;
 }
 
 body {
