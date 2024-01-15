@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--dossier css-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="./SCSS/style.css"/> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./SCSS/style.css"/> 
     <!--dossier js-->
     <script src="https://kit.fontawesome.com/ceda9163bb.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
@@ -27,10 +27,10 @@
                 <div class="container-fluid">
 
                     <div class="row">
-                        <div class="col-6">
+                        <div class="col-12 col-md-6">
                             <a class="agence" href="#">Agence en marketing digital</a>
                         </div>
-                        <div class="col-6 text-end">
+                        <div class="col-12 col-md-6 text-end">
                             <a class="banner_icon" href=""><i class="fa-regular fa-address-card"></i></a>
                             <a class="banner_icon" href=""><i class="fa-solid fa-square-phone"></i></a>
                         </div>
@@ -72,7 +72,7 @@
 
                 <div class="row">
 
-                    <div class="col-5">
+                    <div class="col-12 col-md-5 accueil-left">
                         <div class="slogan">
                             <h1>Connect <span>us</span> <br>
                                 while keeping <br>
@@ -84,8 +84,29 @@
                         </div>
                     </div>
 
-                    <div class="col-7">
-                        <img class="banane-branchee" src="assets/img/banane-branchée.png" />
+                    <div class="col-12 col-md-7 accueil-right">
+                        <div class="toggle-wrapper" onclick="toggleImage()">
+                            <input class="toggle-checkbox" type="checkbox">
+                            <div class="toggle-container">
+                                <div class="toggle-button">
+                                    <div class="toggle-button-circles-container">
+                                        <div class="toggle-button-circle"></div>
+                                        <div class="toggle-button-circle"></div>
+                                        <div class="toggle-button-circle"></div>
+                                        <div class="toggle-button-circle"></div>
+                                        <div class="toggle-button-circle"></div>
+                                        <div class="toggle-button-circle"></div>
+                                        <div class="toggle-button-circle"></div>
+                                        <div class="toggle-button-circle"></div>
+                                        <div class="toggle-button-circle"></div>
+                                        <div class="toggle-button-circle"></div>
+                                        <div class="toggle-button-circle"></div>
+                                        <div class="toggle-button-circle"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <img class="banane-branchee" id="bananeImage" src="assets/img/bananeelec.png" />
                     </div>
 
                 </div>
@@ -93,43 +114,40 @@
             </div>
         </section>
         <!-- Site & App -->
-        <section class="slide" id="siteApp">
-            <div class="container-fluid">
+        <section class="slide py-5" id="siteApp">
+            <div class="container-fluid py-5 mt-3">
 
                 <div class="row">
 
-                    <div class="col-6">
-                        <div class="row">
-                            <div class="col-8">
-                                <h3>Le coéquiper de <strong>votre réussite</strong> digitale<br>
-                                    Une équipe de passionnés à votre écoute
-                                </h3>
-                                <h3>
-                                    Renforcez votre présence sur internet<br>
-                                    Inscrivez <strong>votre indentité</strong> visuelle
-                                </h3>
-                            </div>
-                            <div class="col-4">
-                                <p><strong> 100%</strong><br>
-                                    sur mesure
-                                </p>
-                                <p>
-                                    Une communauté<br>
-                                    à <strong> votre Service</strong>
-                                </p>
-                            </div>
-                        </div>
+                    <div class="col-12 col-md-4 siteApp-left">
+                        <h3 class="txt-title-1">Le coéquiper de <strong>votre réussite</strong> digitale<br>
+                            <span>Une équipe de passionnés à votre écoute</span>
+                        </h3>
+                        <h3 class="txt-title-2">
+                            Renforcez votre présence sur internet<br>
+                            <span>Inscrivez <strong>votre indentité</strong> visuelle</span>
+                        </h3>
+                    </div>
+                    <div class="col-12 col-md-2 pub">
+                        <img class="trio-bananes mx-auto" src="assets/img/Trio-Banane.png" alt="trois-bananes">
+                        <p class="pub-1"><strong> 100%</strong><br>
+                            sur mesure
+                        </p>
+                        <p class="pub-2">
+                            Une communauté<br>
+                            à <strong> votre Service</strong>
+                        </p>
                     </div>
 
-                    <div class="col-6">
-                        <div>
+                    <div class="col-12 col-md-3 siteApp-right">
+                        <div class="sites">
                             <h3>Création de sites</h3>
                             <p>Envie de donner un coup de frais au design de votre site actuel ? "Smile",
                                 expert en développement en Belgique, est là pour vous offrir une expérience 
                                 fruitée et sur mesure qui vous mettra le sourire aux lèvres.
                             </p>
                         </div>
-                        <div>
+                        <div class="visibilte">
                             <h3>Visibilité web</h3>
                             <p>“Smile” déploie une stratégie dynamique pour accroître votre présence en ligne.
                                 Notre équipe se charge du référencement naturel (SEO) et payant (SEA) de votre site,
@@ -137,17 +155,18 @@
                                 présence en ligne et maximiser votre impact dans l'univers digital.
                             </p>
                         </div>
-                        <div>
+                    </div>
+                    <div class="col-12 col-md-3 siteApp-right">
+                        <div class="applications">
                             <h3>Création d'applications</h3>
                             <p>Pour développer une nouvelle application innovante ou pour relooker l'apparence de 
                                 votre application existante, "Smile" est prêt à vous offrir une solution qui saura 
                                 vous faire apprécier chaque instant avec “la banane”.
                             </p>
                         </div>
-                        <div>
+                        <div class="communication">
                             <h3>Communication digitale</h3>
-                            <p>Communication digitale
-                                Explorez notre service complet pour la rédaction de contenus percutants, le blogging,
+                            <p>Explorez notre service complet pour la rédaction de contenus percutants, le blogging,
                                 la gestion dynamique de réseaux sociaux ou encore la création de campagnes innovantes, 
                                 de sa conception à sa réalisation. Faites équipe avec nous pour une communication intégrale
                                 et impactante, du début à la fin.
@@ -156,13 +175,15 @@
 
                     </div>
 
+                    <div class="col-12 boutonStrat">
+                        <a href="#">Développez l’image de votre entreprise sur le web avec une <strong>stratégie digitale performante</strong></a>
+                    </div>
+                    
                 </div>
-                <a href="#">Développez l’image de votre entreprise sur le web avec une <strong>stratégie digitale performante</strong></a>
-
             </div>
         </section>
         <!-- Stratégie Marketing -->
-        <section class="slide" id="stratMarketing">
+        <!-- <section class="slide" id="stratMarketing">
             <div class="container-fluid">
 
                 <div class="row">
@@ -209,7 +230,7 @@
                                     </p>
                                 </div>
                                 <div>
-                                    <img src="assets/img/ref-SEO-1.png" alt="">
+                                    <img src="assets/img/ref-SEO-1.png" alt="illustration-referencement">
                                     <h4>Référenceurs</h4>
                                     <p>Nos spécialistes en référencement naturel (SEO) et payant (SEA) établissent des stratégies efficaces pour booster 
                                         la visibilité de votre site web sur Google. Ils assurent également un suivi régulier de vos positions.
@@ -218,14 +239,14 @@
                             </div>
                             <div class="col-4">
                                 <div>
-                                    <img src="assets/img/conseil-persoweb 1.png" alt="">
+                                    <img src="assets/img/conseil-persoweb 1.png" alt="illustration-conseil-web">
                                     <h4>Conseillers personnels</h4>
                                     <p>Nos conseillers personnels prennent en charge votre dossier et vous accompagnent tout au long de votre projet web. 
                                         Disponibles et toujours à l’écoute, ils vous conseillent et assurent le suivi de votre projet.
                                     </p>
                                 </div>
                                 <div>
-                                    <img src="assets/img/com-maneger 1.png" alt="">
+                                    <img src="assets/img/com-maneger 1.png" alt="illustration-community-manager">
                                     <h4>Community managers</h4>
                                     <p>Nos community managers mettent en place une stratégie de communication pour les réseaux sociaux. Ils gèrent et 
                                         développent vos espaces d’échanges, votre communauté, vos publicités, etc.
@@ -239,9 +260,9 @@
                 </div>
 
             </div>
-        </section>
+        </section> -->
         <!-- Références -->
-        <section class="slide" id="references">
+        <!-- <section class="slide" id="references">
             <div class="container-fluid">
 
                 <div class="row">
@@ -255,30 +276,30 @@
                             Découvrez quelques sites internet de clients qui nous ont
                             fait confiance pour augmenter leur visibilité sur le web.
                         </p>
-                        <img src="assets/img/banana-realistic-3.png" alt="">
+                        <img src="assets/img/banana-realistic-3.png" alt="illustration-banane-couchee">
                         <a href="#">Plus de références</a>
                     </div>
                     <div class="col-4">
-                        <img src="assets/img/vigan_thumb.jpg.png" alt="">
+                        <img src="assets/img/vigan_thumb.jpg.png" alt="illustration-client-Vigan">
                     </div>
                     <div class="col-4">
-                        <img src="assets/img/spa_thumb.jpg.png" alt="">
+                        <img src="assets/img/spa_thumb.jpg.png" alt="illustration-client-SPA">
                     </div>
                     <a href="#">Demandez un devis gratuit au<strong> xxx xx xx xx</strong> ou via <strong>notre formulaire</strong></a>
 
                 </div>
 
             </div>
-        </section>
+        </section> -->
         <!-- Blog -->
-        <section class="slide" id="blog">
+        <!-- <section class="slide" id="blog">
             <div class="container-fluid">
 
                 <div class="row">
                     <div class="col-5">
                         <h3>Notre<strong> blog</strong></h3>
-                        <img src="assets/img/Blog 1.png" alt="">
-                        <a href="#"> Tous les articles</a>
+                        <img src="assets/img/Blog 1.png" alt="illustration-blog">
+                        <a href="#">Tous les articles</a>
                     </div>
                     <div class="col-7">
                         <p>Utiliser le format carrousel sur les réseaux sociaux<br>
@@ -290,7 +311,7 @@
                 </div>
                 
             </div>
-        </section>
+        </section> -->
 
     </main>
 <!-- Pied de page -->

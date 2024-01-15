@@ -5,12 +5,15 @@ body{
     background-color: $black;
     width: 100%;
     position: relative;
+    color:$white;
 
     .slide{
-        min-height: 100vh;
+        min-height: 90vh;
         background: rgb(255,242,194);
         background: radial-gradient(circle, rgba(255,242,194,0.20220588235294112) 0%, rgba(249,251,251,0) 40%);
-
+    }
+    #siteApp{
+        min-height: 100vh;
     }
 
 }

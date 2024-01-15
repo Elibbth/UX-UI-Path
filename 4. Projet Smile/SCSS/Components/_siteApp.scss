@@ -1,0 +1,80 @@
+.siteApp-left{
+    h3{
+        font-family: $font-basic;
+        font-size: 24px;
+        font-weight:300;
+        color: $white;
+        strong{
+            font-weight: 600;
+        }
+    }
+    .txt-title-1{
+        margin-bottom: 60px;
+    }
+    .txt-title-2{
+        text-align: right;
+    }
+}
+.pub{
+    .trio-bananes{
+        align-self: flex-start;
+        width: 30%;
+    }
+    color:$yellow;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    .pub-1{
+        margin-top: 50px;
+    }
+    .pub-2{
+        margin-top: 20px;
+    }
+    
+}
+.siteApp-right{
+    font-family: $font-basic;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.2rem;
+    letter-spacing: 1px;
+    h3{
+        font-family: $font-basic;
+    }
+    p{
+        margin-bottom: 50px;
+    }
+    .sites{
+        padding: 0 20px;
+    }
+    .visibilite{
+        padding: 0 20px;
+    }
+    .applications{
+        padding: 0 20px;
+        margin-top: 50px;
+    }
+    .communication{
+        padding: 0 20px;
+    }
+}
+.boutonStrat{
+    text-align: center;
+    a{
+        font-family: $font-basic;
+        padding: 4px 35px 8px;
+        background-color: $blueElectrik;
+        color: $black;
+        border-radius: 15px;
+        text-decoration: none;
+        font-size: 20px;
+        strong{
+            color: $white;
+        }
+        &:hover{
+            background-color: $yellow;
+        }
+    }
+}

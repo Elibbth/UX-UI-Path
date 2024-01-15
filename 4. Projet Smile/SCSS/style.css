@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .banner-top {
   background-color: #FFC803;
   padding: 10px;
@@ -26,39 +27,194 @@
   width: 80px;
 }
 
-.banane-branchee {
-  width: 100%;
-}
-
-.banane-branchee:hover {
-  box-shadow: 0px 0px 50px 0px rgba(255, 200, 3, 0.85);
-}
-
-.col-5 {
+.accueil-left {
   display: flex;
   align-items: center;
   font-family: "Darker Grotesque", sans-serif;
 }
-.col-5 .slogan {
+.accueil-left .slogan {
   display: flex;
   flex-direction: column;
   margin: auto;
 }
-.col-5 h1 {
+.accueil-left h1 {
   font-weight: 900;
   font-size: 56px;
   color: #ffffff;
   letter-spacing: 4px;
   line-height: 4rem;
 }
-.col-5 h1 span {
+.accueil-left h1 span {
   color: #000AFF;
 }
-.col-5 a {
+.accueil-left a {
   background-color: #1C1B1B;
   border-radius: 5px;
   padding: 5px 10px;
   text-decoration: none;
+}
+
+.accueil-right {
+  position: relative;
+}
+.accueil-right .toggle-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 50;
+  top: 34%;
+  left: 38%;
+  border-radius: 50px;
+  width: 90px;
+  padding: 5px 3px;
+  background-image: linear-gradient(to bottom, #4c4c4c, #9c9c9c);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 1em;
+}
+.accueil-right .toggle-checkbox {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  position: absolute;
+  z-index: 1;
+  border-radius: inherit;
+  width: 100%;
+  height: 100%;
+  font: inherit;
+  opacity: 0;
+  cursor: pointer;
+}
+.accueil-right .toggle-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  border-radius: 50px;
+  width: 70px;
+  height: 30px;
+  background-color: #090909;
+  box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.2), inset 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.4s linear;
+}
+.accueil-right .toggle-checkbox:checked + .toggle-container {
+  background-color: #FFC803;
+}
+.accueil-right .toggle-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 2px;
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  background-color: #e8e8e8;
+  box-shadow: inset 0 -2px 2px rgba(0, 0, 0, 0.1), inset 0 -4px 2px rgba(0, 0, 0, 0.2), inset 0 6px 2px rgba(255, 255, 255, 0.3), 0 4px 4px rgba(0, 0, 0, 0.5);
+  transition: left 0.4s;
+}
+.accueil-right .toggle-checkbox:checked + .toggle-container > .toggle-button {
+  left: 42px;
+}
+.accueil-right .toggle-button-circles-container {
+  display: grid;
+  grid-template-columns: repeat(3, 4px);
+  gap: 2px;
+  position: absolute;
+  margin: 0 auto;
+}
+.accueil-right .toggle-button-circle {
+  border-radius: 50%;
+  width: 2px;
+  height: 2px;
+  background-image: radial-gradient(circle at 50% 0, #f5f5f5, #c4c4c4);
+}
+.accueil-right .banane-branchee {
+  width: 100%;
+  transition: opacity 0.1s ease-in-out;
+}
+.accueil-right .banane-branchee .hidden {
+  opacity: 0; /* Masquer l'image avec une opacité de 0 */
+}
+
+.siteApp-left h3 {
+  font-family: "Darker Grotesque", sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  color: #ffffff;
+}
+.siteApp-left h3 strong {
+  font-weight: 600;
+}
+.siteApp-left .txt-title-1 {
+  margin-bottom: 60px;
+}
+.siteApp-left .txt-title-2 {
+  text-align: right;
+}
+
+.pub {
+  color: #FFC803;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.pub .trio-bananes {
+  align-self: flex-start;
+  width: 30%;
+}
+.pub .pub-1 {
+  margin-top: 50px;
+}
+.pub .pub-2 {
+  margin-top: 20px;
+}
+
+.siteApp-right {
+  font-family: "Darker Grotesque", sans-serif;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.2rem;
+  letter-spacing: 1px;
+}
+.siteApp-right h3 {
+  font-family: "Darker Grotesque", sans-serif;
+}
+.siteApp-right p {
+  margin-bottom: 50px;
+}
+.siteApp-right .sites {
+  padding: 0 20px;
+}
+.siteApp-right .visibilite {
+  padding: 0 20px;
+}
+.siteApp-right .applications {
+  padding: 0 20px;
+  margin-top: 50px;
+}
+.siteApp-right .communication {
+  padding: 0 20px;
+}
+
+.boutonStrat {
+  text-align: center;
+}
+.boutonStrat a {
+  font-family: "Darker Grotesque", sans-serif;
+  padding: 4px 35px 8px;
+  background-color: #000AFF;
+  color: #090909;
+  border-radius: 15px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.boutonStrat a strong {
+  color: #ffffff;
+}
+.boutonStrat a:hover {
+  background-color: #FFC803;
 }
 
 body {
@@ -67,11 +223,15 @@ body {
   background-color: #090909;
   width: 100%;
   position: relative;
+  color: #ffffff;
 }
 body .slide {
-  min-height: 100vh;
+  min-height: 90vh;
   background: rgb(255, 242, 194);
   background: radial-gradient(circle, rgba(255, 242, 194, 0.2022058824) 0%, rgba(249, 251, 251, 0) 40%);
+}
+body #siteApp {
+  min-height: 100vh;
 }
 
 .accueil .block-right .banana-realistic {
